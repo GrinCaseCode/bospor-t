@@ -989,6 +989,11 @@
 	.row_steps .slick-slide {
 		height: inherit !important;
 	}
+	.item-step .title-block,
+	.item-step,
+	.item-step::after {
+		transition: all 0.3s;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1009,13 +1014,14 @@
 	.item-billbord:nth-child(2) {
 		bottom: 256px;
 		max-width: 140px;
-		right: -38px;
+		right: -30px;
 	}
 	.badge-billbord {
 		width: 120px;
 		height: 120px;
 		bottom: 78px;
 		font-size: 12px;
+		right: 20px;
 		line-height: 16px;
 		padding-left: 40px;
 	}
