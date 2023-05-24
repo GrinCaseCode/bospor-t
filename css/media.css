@@ -32,6 +32,16 @@
 	.footer__content {
 		line-height: 20px;
 	}
+
+	.service-block {
+		padding-top: 30px;
+	}
+	.service-block__img {
+		transform: scale(0.9);
+	}
+	.logo-descr {
+		padding-top: 20px;
+	}
 }
 @media only screen and (max-height: 850px) and (min-width: 1200px) {
 	body {
@@ -191,6 +201,40 @@
 	.steps .title-section {
 		padding-bottom: 15px;
 	}
+
+	.service-block {
+		padding-top: 30px;
+	}
+	.service-block__img {
+		transform: scale(0.8);
+		transform-origin: 0 0;
+	}
+	.service-block .title-middle {
+		margin-bottom: 15px;
+	}
+	.service-block_left .service-block__img {
+		margin-left: -20px;
+	}
+	.service-block_right .service-block__img {
+		margin-left: 120px;
+		margin-top: -30px;
+	}
+	.services .title-section {
+		padding-bottom: 20px;
+	}
+	body .content-portfolio .descr-block {
+		padding-bottom: 8px;
+		margin-bottom: 13px;
+	}
+	.image-consultation img {
+		max-width: 400px;
+	}
+	.footer__requisites {
+		padding-top: 30px;
+	}
+	.section_bottom .fp-tableCell {
+		padding-top: 65px;
+	}
 }
 
 @media only screen and (max-height: 750px) and (min-width: 1200px) {
@@ -326,6 +370,23 @@
 		left: 7px;
 		right: 7px;
 		bottom: 7px;
+	}
+
+	.service-block {
+		padding-top: 20px;
+	}
+	.service-block__img {
+		transform: scale(0.6);
+		transform-origin: 0 0;
+	}
+	.service-block .title-middle {
+		margin-bottom: 15px;
+	}
+	.image-consultation img {
+		max-width: 345px;
+	}
+	.wrapper_page {
+		padding-top: 58px;
 	}
 }
 
@@ -519,6 +580,78 @@
 	}
 	.col-lg-3 .block-form {
 		margin-left: -54px;
+	}
+
+	.service-block_left ul {
+		max-width: 300px;
+	}
+	.service-block_right .service-block__img {
+		margin-left: 80px;
+	}
+	.service-block_left .service-block__img {
+		margin-left: -20px;
+	}
+	.tab-container {
+		padding: 20px;
+	}
+	.title-section {
+		line-height: 44px;
+	}
+	.image-consultation img {
+		max-width: 350px;
+	}
+	.item-step {
+		padding: 25px;
+		min-height: 195px;
+	}
+	.line-form .item-form {
+		width: 245px;
+	}
+	.footer__requisites {
+		padding-top: 20px;
+	}
+	.footer .social-list img {
+		max-width: 18px;
+	}
+	.tab-container .slick-prev {
+		left: -140px;
+	}
+	.tab-container .slick-next {
+		right: -140px;
+	}
+	.wrapper_page {
+		padding-top: 57px;
+	}
+	.row_news {
+		margin: 0 -25px;
+	}
+	.row_news > div {
+		padding: 0 25px;
+		margin-bottom: 29px;
+	}
+	.item-news {
+		padding: 30px 30px;
+	}
+	.item-news__image {
+		height: 330px;
+		margin-bottom: 15px;
+	}
+	.item-news__title {
+		font-size: 18px;
+		line-height: 27px;
+	}
+	.item-news__date {
+		font-size: 13px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+	.page-numbers {
+		font-size: 16px;
+		line-height: 30px;
+		margin: 0 14px;
+	}
+	.page-news .title-section {
+		padding-bottom: 17px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -749,6 +882,44 @@
 	.section_bottom .fp-tableCell {
 		padding-top: 0;
 	}
+
+	.header__wrapper .phones-main a img,
+	.header__wrapper .social-list {
+		display: none;
+	}
+	.service-block__content {
+		max-width: 350px;
+	}
+	.service-block__img img {
+		max-width: 100%;
+		height: auto;
+	}
+	.reviews .title-section {
+		padding-bottom: 6px;
+	}
+	.portfolio .title-section {
+		margin: 0 70px;
+	}
+	.steps {
+		padding-bottom: 35px;
+	}
+	.row_news {
+		margin: 0 -15px;
+	}
+	.row_news > div {
+		padding: 0 15px;
+		margin-bottom: 25px;
+	}
+	.item-news {
+		padding: 25px 20px;
+	}
+	.item-news__image {
+		height: 280px;
+	}
+	.item-news__title {
+		font-size: 16px;
+		line-height: 26px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -904,6 +1075,27 @@
 	.footer-bottom {
 		padding: 20px 0;
 	}
+
+	.service-block_right .service-block__img {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.portfolio .title-section {
+		margin: 0;
+	}
+	.consultation .circles {
+		transform: none;
+	}
+	.footer__requisites {
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+	.item-news__image {
+		height: 335px;
+	}
+	.wrapper_page {
+    padding-top: 54px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -994,6 +1186,20 @@
 	.item-step::after {
 		transition: all 0.3s;
 	}
+	.line-form .item-form {
+		width: 215px;
+	}
+	.portfolio .bottom-button {
+		padding-top: 52px;
+	}
+	.reviews,
+	.portfolio {
+		padding-bottom: 35px;
+	}
+	.page-news {
+    padding-top: 28px;
+    padding-bottom: 34px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1118,6 +1324,19 @@
 	}
 	.contacts-block {
 		padding-top: 0;
+	}
+	.line-form {
+		display: block;
+	}
+	.line-form .item-form {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.line-form .btn-main {
+		width: 100%;
+	}
+	.row_news > div {
+		margin-bottom: 20px;
 	}
 }
 

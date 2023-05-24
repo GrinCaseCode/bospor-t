@@ -1252,7 +1252,344 @@ form {
 }
 .section_bottom .fp-tableCell {
 	padding-top: 84px;
-	    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.social-list {
+	display: flex;
+	align-items: center;
+}
+.social-list li {
+	margin-right: 13px;
+}
+.phones-main a {
+	display: inline-flex;
+	align-items: center;
+}
+.phones-main a img {
+	margin-left: 15px;
+}
+.badge-billbord__title span {
+	color: #13447E;
+}
+.btn-main_page {
+	background-color: #D72326;
+}
+.btn-main_page:hover {
+	background-color: #b4090c;
+}
+.title-section {
+	font-weight: 500;
+}
+.service-block__bg {
+	border: none;
+	background-image: none !important;
+}
+.service-block ul {
+	min-height: initial !important;
+}
+.service-block {
+	padding-top: 80px;
+}
+.service-block_left ul {
+	max-width: 400px;
+}
+.service-block ul li {
+	padding-left: 15px;
+	margin-bottom: 12px;
+	position: relative;
+}
+.service-block ul li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "•";
+}
+.service-block ul {
+	padding-bottom: 15px;
+	line-height: initial !important;
+	color: initial;
+}
+.content-billbord .title-section {
+	font-weight: 800;
+}
+.service-block_left .service-block__bg {
+	background: #D9E9F8;
+}
+.service-block_left .service-block__img {
+	margin-left: -60px;
+}
+.service-block_right .service-block__img {
+	margin-left: 200px;
+}
+.portfolio .title-section {
+	margin: 0 110px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+body .content-portfolio .title-block {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+body .content-portfolio .descr-block {
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(33, 33, 33, 0.1);
+}
+.content-portfolio__bottom {
+	padding-top: 0px;
+	text-align: left;
+}
+.tab-container::before {
+	border: none;
+}
+.tab-container {
+	padding: 30px;
+}
+.circles {
+	pointer-events: none;
+}
+.portfolio .bottom-button {
+	padding-top: 35px;
+}
+.consultation .fp-tableCell {
+	vertical-align: bottom;
+}
+.consultation {
+	background: #FCFCFC;
+}
+.block-form {
+	background: #D9E9F8;
+border: 1px solid #DCE9FA;
+border-radius: 8px;
+}
+.block-form .btn-main {
+	border: none;
+}
+.block-form .item-form input {
+	border: none;
+}
+.checkbox {
+	margin-top: 18px;
+}
+.file-upload input {
+	width: 0 !important;
+	height: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	position: absolute;
+}
+.file-upload label {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 14px 12px;
+	font-weight: 400;
+	color: #8F8F8F;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #8F8F8F;
+	cursor: pointer;
+border: 1px solid #FFFFFF;
+border-radius: 3px;
+	font-family: 'Geometria';
+	transition: all 0.3s;
+}
+.file-upload:hover label {
+	background: rgba(255, 255, 255, 0.2);
+}
+.file-upload label i {
+	margin-left: 12px;
+}
+.file-upload {
+	margin-bottom: 13px;
+	position: relative;
+}
+.consultation-block .title-section {
+	    max-width: 515px;
+	margin-right: 0;
+}
+.consultation-block .descr-big {
+	max-width: 100%;
+}
+.consultation .circles {
+	transform: scale(0.7);
+	transform-origin: 50% 30vh;
+}
+.reviews {
+	background: transparent;
+}
+.item-review {
+	background: #FCFCFC;
+box-shadow: 0px 3px 7px rgba(19, 68, 126, 0.1);
+border-radius: 8px;
+}
+.item-review:hover {
+	box-shadow: 0px 3px 13px rgba(19, 68, 126, 0.4);
+}
+.item-review::before {
+	background: #FFFFFF;
+border: 1px solid rgba(220, 233, 250, 0.5);
+border-radius: 8px;
+}
+.item-review__date {
+	opacity: 1;
+	color: #212121;
+}
+.slider-reviews .item-review {
+	margin: 12px;
+}
+.slider-reviews {
+ margin: 0 -12px;
+}
+.slider-reviews .slick-dots {
+	bottom: 0px;
+}
+.slider-reviews {
+	padding-bottom: 20px;
+}
+.item-step {
+	opacity: 1;
+	background: #FFFFFF;
+box-shadow: 0px 6px 10px rgba(19, 68, 126, 0.1);
+border-radius: 8px;
+}
+.steps {
+	background: #FCFCFC;
+}
+.tabs a {
+	color: #212121;
+}
+.line-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.line-form .item-form {
+	width: 292px;
+	margin: 0;
+	margin-right: -15px;
+}
+.bottom-form {
+	padding-top: 10px;
+}
+.item-step::before {
+	border: none;
+}
+.footer-bottom {
+	background: #093972;
+}
+.wrap-contacts {
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	justify-content: flex-end;
+}
+.footer .social-list img {
+filter: brightness(0) invert(1);
+}
+.footer .phones-main a {
+	color: #fff;
+	font-weight: 600;
+}
+.logo-descr {
+	padding-top: 20px;
+}
+.footer__requisites {
+	padding-top: 40px;
+	font-weight: 500;
+}
+.wrapper_page {
+	padding-top: 83px;
+}
+.wrapper_page .header {
+	background-color: #FCFCFC;
+	position: fixed;
+}
+.page-news {
+	padding-top: 34px;
+	padding-bottom: 49px;
+}
+.item-news {
+	padding: 35px 38px;
+	background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(19, 68, 126, 0.03);
+	display: block;
+	min-height: 100%;
+}
+.item-news__image {
+	height: 390px;
+	margin-bottom: 16px;
+	display: block;
+	width: 100%;
+}
+.item-news__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+.item-news__date {
+	font-size: 14px;
+line-height: 24px;
+margin-bottom: 12px;
+color: #ADABAB;
+	display: block;
+}
+.item-news__title {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+color: #13447E;
+}
+.item-news:hover {
+	box-shadow: 0px 10px 20px rgba(19, 68, 126, 0.1);
+}
+.row_news {
+	margin: 0 -45px;
+}
+.row_news > div {
+	padding: 0 45px;
+	margin-bottom: 49px;
+}
+.page-news .title-section {
+	padding-bottom: 30px;
+}
+.pager {
+	margin-top: 10px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.page-numbers {
+	font-size: 18px;
+	line-height: 32px;
+	margin: 0 17px;
+color: #212121;
+}
+.page-numbers:hover {
+	color: #D72326;
+}
+.prev.page-numbers,
+.next.page-numbers {
+	position: absolute;
+	top: 0;
+	margin: 0;
+}
+.prev.page-numbers {
+	left: 0;
+}
+.next.page-numbers {
+	right: 0;
+}
+.page-numbers:hover path {
+	fill: #D72326;
+}
+.page-numbers path {
+	transition: all 0.3s;
 }
