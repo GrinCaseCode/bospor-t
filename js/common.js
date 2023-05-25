@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
 
+$('.item-nav__head').click(function() {
+		$(this).siblings(".item-nav__content").slideToggle(200);
+		$(this).parent().toggleClass('active');
+	}); 
+
+
+
 	/*input file*/
 	$("input[type='file']").change(function(){
 		var filename_text = $(this).parent().siblings(".name-upload");
@@ -44,7 +51,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 }
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".nav-article li a").mPageScroll2id({
+		offset: 80
+	});
 
 
 	//слайдер
@@ -121,6 +130,37 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-clients').slick({
+		arrows: true,
+		dots: true,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><svg width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.292892 7.2929C-0.0976296 7.68342 -0.0976295 8.31659 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41422 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928935C7.68054 0.538411 7.04738 0.538411 6.65685 0.928935L0.292892 7.2929ZM43 7L1 7L1 9L43 9L43 7Z" fill="#13447E"/></svg><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><svg width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M42.7071 7.2929C43.0976 7.68342 43.0976 8.31659 42.7071 8.70711L36.3431 15.0711C35.9526 15.4616 35.3195 15.4616 34.9289 15.0711C34.5384 14.6805 34.5384 14.0474 34.9289 13.6569L40.5858 8L34.9289 2.34315C34.5384 1.95262 34.5384 1.31946 34.9289 0.928935C35.3195 0.538411 35.9526 0.538411 36.3431 0.928935L42.7071 7.2929ZM8.74228e-08 7L42 7L42 9L-8.74228e-08 9L8.74228e-08 7Z" fill="#13447E"/></svg><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow:4,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow:3,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow:2,
+			}
+		}
+		]
+	});
+
 
 	$('.tabs li a').click(function(event) {
 		event.preventDefault();
@@ -133,6 +173,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().parent().parent().find(".row_steps").slick('setPosition');
 	}); 
 
+	$('.tabs-page li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().parent().parent().find(".tab-pane-page").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	}); 
 
 	$(".service-block").mouseover(function() {
 		$(this).siblings(".service-block").removeClass("active");
