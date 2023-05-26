@@ -845,8 +845,8 @@
 		margin-top: 15px;
 	}
 	.slider-images__item {
-    height: 240px;
-}
+		height: 240px;
+	}
 }
 
 
@@ -1249,9 +1249,9 @@
 		background-size: 505px auto;
 	}
 	.partners {
-    padding-top: 35px;
-    padding-bottom: 40px;
-}
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1461,15 +1461,15 @@
 		background-size: 355px auto;
 	}
 	.about-wrapper img {
-    max-width: 380px;
-}
-.about-wrapper .img-left {
-    margin-bottom: 10px;
-    margin-top: 5px;
-}
-.equipment {
-    padding-top: 25px;
-}
+		max-width: 380px;
+	}
+	.about-wrapper .img-left {
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.equipment {
+		padding-top: 25px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1699,14 +1699,14 @@
 		padding-bottom: 15px;
 	}
 	.about-wrapper h2 {
-    font-size: 16px;
-    line-height: 25px;
-    padding-top: 0px;
-    margin-bottom: 10px;
-}
-.slider-images__item {
-    height: 180px;
-}
+		font-size: 16px;
+		line-height: 25px;
+		padding-top: 0px;
+		margin-bottom: 10px;
+	}
+	.slider-images__item {
+		height: 180px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1881,11 +1881,11 @@
 		line-height: 49px;
 	}
 	.equipment .title-section {
-    padding-bottom: 17px;
-}
-.partners .slider-clients {
-	margin-top: 13px;
-}
+		padding-bottom: 17px;
+	}
+	.partners .slider-clients {
+		margin-top: 13px;
+	}
 }
 
 /* Custom, iPhone Retina */
