@@ -1895,6 +1895,9 @@
 	.slider-card__image {
 		height: 180px;
 	}
+	.slider-images__item {
+		height: 215px;
+	}
 }
 
 /* Custom, iPhone Retina */
