@@ -1886,6 +1886,15 @@
 	.partners .slider-clients {
 		margin-top: 13px;
 	}
+	.single-portfolio .title-section {
+		padding-bottom: 11px;
+	}
+	.card-portfolio {
+		padding: 15px;
+	}
+	.slider-card__image {
+		height: 180px;
+	}
 }
 
 /* Custom, iPhone Retina */
